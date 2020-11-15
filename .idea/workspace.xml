@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73da090e-30e0-40f5-918f-d5ebcea9d58e" name="Default Changelist" comment="" />
+    <list default="true" id="73da090e-30e0-40f5-918f-d5ebcea9d58e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/sendRefreshToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/graphql/hello.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/graphql/login.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/graphql/register.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/graphql/users.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/UserResolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/UserResolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/entity/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/entity/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/isAuth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/isAuth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kIWr1FJlyztBHWlyFFrIdsWBZb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -34,11 +74,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605388786586</updated>
-      <workItem from="1605388789975" duration="5583000" />
+      <workItem from="1605388789975" duration="5997000" />
+      <workItem from="1605473097131" duration="8615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2547" y="243" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605476098082">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2547" y="243" width="655" height="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605476098082" />
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1605474484192">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605474484192" />
   </component>
 </project>
