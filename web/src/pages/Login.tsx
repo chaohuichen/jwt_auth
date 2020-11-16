@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
 import {useLoginMutation} from "../generated/graphql";
+import {setAccessToken} from "../accessToken";
 
-interface Props {
-
-}
 // @ts-ignore
 export const Login =({history})=>{
     const [email,setEmail]=useState(``)
@@ -18,8 +16,10 @@ export const Login =({history})=>{
                 password
             }
         })
+        if(response && response.data){
+            setAccessToken(response.data.login.accessToken)
+        }
         history.push("/")
-        console.log(response)
     }}>
         <div>
             <input value ={email} placeholder="email"
